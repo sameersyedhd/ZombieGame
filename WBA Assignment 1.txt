@@ -1,0 +1,43 @@
+WBA - 2099 Assignment 1
+
+Group:
+  - Adrian Price
+  - Umar Motani
+  - Sameer Syed
+
+Adrian:
+  - Complete UML for Zombie Attack section
+  - Complete Interaction Diagram for Zombie Attack section
+  - Write Design Rationale for Zombie Attack section
+
+  - Proof read Umar's work
+
+Umar:
+  - Complete UML for Beating up the Zombies section
+  - Complete Interaction Diagram for Beating up the Zombies section
+  - Write Design Rationale for Beating up the Zombies section
+
+  - Complete UML for Crafting Weapons section
+  - Complete Interaction Diagram for Crafting Weapons section
+  - Write Design Rationale for Crafting Weapons section
+
+  - Proof read Sameer's work
+
+Sameer:
+  - Complete UML for Rising from the dead section
+  - Complete Interaction Diagram for Rising from the dead section
+  - Write Design Rationale for Rising from the dead section
+
+  - Complete UML for Farmers and Food section
+  - Complete Interaction Diagram for Farmers and Food section
+  - Write Design Rationale for Farmers and Food section
+
+  - Proof read Adrian's work
+
+Deadline:
+  - All work must be available to be proof read by end of Thursday
+  - All work must be submitted to git by due time on Friday
+  
+ I accept this WBA (Adrian)
+ I accept this WBA (Sameer)
+ I accept this WBA (Umar)

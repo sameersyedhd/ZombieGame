@@ -1,0 +1,45 @@
+Design Rationale:
+
+Zombie Attacks:
+	Bite Attack Action & Healing:
+	I have added a new ZombieAttackAction, which extends the AttackAction class
+	This will be created by a ZombieAttackBehaviour, which extends the AttackBehaviour class
+	This will allow me to add the possibility of healing as well as variable accuracy to attacks
+	In order to meet the Don't Repeat Yourself criteria we will only need to override the execute method
+
+	Picking Up Weapons:
+	In Locations we will have a containsWeapon method which will go through the items arrayList and, if there is an item of type WeaponItem it will return the WeaponItem if it exists or Null otherwise
+	If the weapon does exist we will then call the PickUpItemAction, passing the returned WeaponItem in as a parameter and the weapon will be added to the Zombie's inventory
+	After this the Zombie will automatically use the weapon as already dictated in the code
+	This change does not require the need for new classes, but adds a dependancy as Zombie will create an instance of PickUpItemAction
+	
+
+	Saying Brains:
+		I have created a new Behaviour called ZombieNoiseBehaviour, which will 			result in the Zombie saying “BRAAAAAAAINS”
+			This represents their whole turn and cannot do anything else
+		
+		This will have a 10% chance of happening
+		
+		The possibility of it happening will happen at the start of playTurn in 		the Zombie Class
+		
+		It will be decided by a random number between 1 and 10, if it is 1 then we 		do the ZombieNoiseBehaviour
+
+
+Beating up the Zombies:
+New behaviour called DamageBehaviour deals with determining the outcome of an attack on the Zombie.
+When attacked, there is a 25% chance of the zombie losing one of its limbs. 
+This will be decided by a random number between 1 and 4, if it's 1 then the zombie will lose a limb. if its 2-4, it will not lose a limb.
+Use random number to determine which limb (arm or leg) to remove from the zombie (1 = arm, 2 = leg). If zombie has already lost all arms, then remove a leg and vice versa.
+
+Losing limbs:
+Arm - losing arms affect the zombies AttackBehaviour.
+Losing one arm, halves its probability of punching and increase its chances of dropping any weapon to 50%. 
+Losing both arms results in dropping weapon.
+Leg - losing legs affects the zombies WanderBehaviour.
+Losing one leg, results in halving its movement speed (moves every second turn).
+Losing both legs stops the zombie from moving at all but doesn't affect its attacking behaviour.
+
+where should the limbs drop? next to zombie or at an adjacent location?
+
+Crafting Weapons
+A player can use dropped zombie limbs as weapons. A zombie arm/leg can be transformed into a club/mace and therefore the weapon will inherite the advantages associated with it (which is inflicting more damage).

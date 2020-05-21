@@ -1,0 +1,45 @@
+WBA - 2099 Assignment 2
+
+Group:
+  - Adrian Price
+  - Umar Motani
+  - Sameer Syed
+
+Adrian:
+  - Complete code for Zombie Attack section
+  - Test Zombie Attack section
+  - Any design changes to Zombie Attack section must be reflected in an updated UML
+
+  - Test Crafting Weapons section
+  - Test Beating up the Zombies Section
+
+Umar:
+  - Complete code for Beating up the Zombies section
+  - Test Beating up the Zombies Section
+  - Any design changes to Beating up the Zombies section must be reflected in an updated UML
+
+  - Complete code for Crafting Weapons section
+  - Test Crafting Weapons section
+  - Any design changes to Crafting Weapons section must be reflected in an updated UML
+
+  - Test Rising from the dead section
+  - Test Farmers and Food section
+
+Sameer:
+  - Complete code for Rising from the dead section
+  - Test Rising from the dead section
+  - Any design changes to Rising from the dead section must be reflected in an updated UML
+
+  - Complete code for Farmers and Food section
+  - Test Farmers and Food section
+  - Any design changes to Farmers and Food section must be reflected in an updated UML
+
+  - Test Zombie Attack section
+
+Deadline:
+  - All work must be available to be tested by Wednesday the 20th of May
+  - All work must be submitted to git by due time on Friday the 22nd of May
+ 
+ I accept this WBA (Adrian)
+ I accept this WBA (Umar)
+ I accept this WBA (Sameer)
